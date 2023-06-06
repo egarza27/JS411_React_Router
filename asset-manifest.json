@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JS411_React_Router/static/css/main.a29c43ac.css",
+    "main.js": "/JS411_React_Router/static/js/main.78111702.js",
+    "index.html": "/JS411_React_Router/index.html",
+    "main.a29c43ac.css.map": "/JS411_React_Router/static/css/main.a29c43ac.css.map",
+    "main.78111702.js.map": "/JS411_React_Router/static/js/main.78111702.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a29c43ac.css",
+    "static/js/main.78111702.js"
+  ]
+}
