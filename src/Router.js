@@ -1,17 +1,20 @@
-/* 
-    Write code for React Router here
-Import the Home and About components from 
-the component folder. Assign the default
-path "/" to the Home component and "/about"
-to the About component.
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import cars from "./cars.json";
 
-Remember to export the component at the end
-*/
+// Import your component files here
+import About from "./components/About";
+import Car from "./components/Car";
+import Home from "./components/Home";
 
-import React from 'react'
-import { Routes, Route } from 'react-router'
-// Write component imports here //
+const AppRouter = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/car/:id" element={<Car cars={cars} />} />
+    </Routes>
+  );
+};
 
-
-
-// Start Router function here //
+export default AppRouter;
